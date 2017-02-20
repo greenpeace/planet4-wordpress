@@ -1,0 +1,35 @@
+{
+	"name": "greenpeace/upstream-wordpress",
+	"version": "4.7.2",
+
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress/wordpress",
+				"version": "4.7.2",
+				"url": "https://wordpress.org/",
+				"dist": {
+					"url": "https://wordpress.org/wordpress-4.7.2.zip",
+					"type": "zip"
+				},
+				"source": {
+					"type": "svn",
+					"url": "https://core.svn.wordpress.org/",
+					"reference": "tags/4.7.2"
+				}
+			}
+		}
+	],
+
+	"require": {
+		"composer/installers": "~1.0",
+		"wordpress/wordpress": "4.7.2"
+	},
+
+	"extra": {
+		"installer-paths": {
+			"public": ["wordpress/wordpress"]
+		}
+	}
+}
