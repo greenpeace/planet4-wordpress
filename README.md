@@ -1,10 +1,7 @@
 # Greenpeace Planet 4 Wordpress
 This is not the official repository of the Wordpress.
-All credit for the plugin should go to the original author:
 
-	https://wordpress.org/plugins/mappress-google-maps-for-wordpress/
-
-This repository only stores meta information about this plugin, so that it is
+This repository only stores meta information about Wordpress, so that it is
 usable via Composer in the Planet 4 project.
 
 To install this plugin add the Planet 4 registry to your `composer.json`:
