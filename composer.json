@@ -16,7 +16,7 @@
 				"source": {
 					"type": "svn",
 					"url": "https://core.svn.wordpress.org/",
-					"reference": "tags/4.8.2"
+					"reference": "tags/4.8.3"
 				}
 			}
 		}
